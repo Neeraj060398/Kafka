@@ -3,7 +3,10 @@
 <b> Setup: </b>
 
 Confluent Kafka
+
 Databricks Community edition
+
+
 
 <b> Steps: </b>
 1) Create a cluster and topic_0 in confluent kafka
@@ -13,6 +16,8 @@ Databricks Community edition
 5) copy client.conf file to location "dbfs:/FileStore/client.conf"
 6) Setup appropriate environment varaible to be used in the notebooks
 7) Import kafka-confluent-producer.py and kafka-iot-streaming-consumer.py into your databricks workspace
+
+
 
 <b> Python Files: </b>
 1) kafka-confluent-producer.py - produces temperature data into kafka topic
