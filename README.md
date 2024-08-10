@@ -1,6 +1,7 @@
 # Kafka
 
 <b> Setup: </b>
+
 Confluent Kafka
 Databricks Community edition
 
